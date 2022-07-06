@@ -3,11 +3,12 @@ import { Navbar, Nav, Form, FormControl, Button, Container } from 'react-bootstr
 
 export default class NavbarBS extends Component {
     render() {
+
         return (
             <div>
                 <Navbar bg="dark" variant={"dark"} expand="lg">
                     <Container fluid>
-                        <Navbar.Brand href="#">Online Shopping</Navbar.Brand>
+                        <Navbar.Brand href="Home.js">Online Shopping</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
@@ -15,7 +16,9 @@ export default class NavbarBS extends Component {
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
-                                <Nav.Link href="#action2">MEN</Nav.Link>
+                                <Nav.Link href="Home.jsx">Home</Nav.Link>
+                                <Nav.Link href="Products.jsx">Products</Nav.Link>
+                                <Nav.Link href="Products.jsx">MEN</Nav.Link>
                                 <Nav.Link href="#action3">WOMEN</Nav.Link>
                             </Nav>
                             <Form className="d-flex">
@@ -30,7 +33,7 @@ export default class NavbarBS extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-            </div>
+            </div >
         )
     }
 }

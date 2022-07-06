@@ -1,13 +1,14 @@
 
 import NavbarBS from "./components/NavbarBS";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 import Products from './components/Products';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <NavbarBS /><br /><br />
+      <Home />
       <Products />
       <Footer />
     </div>
