@@ -17,7 +17,7 @@ export default class NavbarBS extends Component {
                                 navbarScroll
                             >
                                 <Nav.Link href="Home.jsx">Home</Nav.Link>
-                                <Nav.Link href="Products.jsx">Products</Nav.Link>
+                                <Nav.Link href="Product.jsx">Products</Nav.Link>
                                 <Nav.Link href="Products.jsx">MEN</Nav.Link>
                                 <Nav.Link href="#action3">WOMEN</Nav.Link>
                             </Nav>
