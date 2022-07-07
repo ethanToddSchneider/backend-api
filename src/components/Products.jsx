@@ -89,10 +89,10 @@ const Products = () => {
 
     return (
         <div>
-            <div className='container my-5 py-5'>
+            <div className='container my-3 py-3'>
                 <div className='row'>
                     <div className='col-12 mb-5'>
-                        <h1 className='display-6 fw-bolder text-center'>
+                        <h1 className='display-7 fw-bolder text-center'>
                             Latest Products
                         </h1><hr />
                     </div>

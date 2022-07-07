@@ -2,11 +2,158 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: montserrat, sans-serif;
 }
 
-.text {
+/* LOGIN PAGE */
+
+input,
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/*
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightsalmon;
+}
+
+form {
   display: block;
-  margin-left: -6vw;
+  position: relative;
+}
+
+form:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom right, yellow 20%, orange 70%);
+}
+
+form .form-inner {
+  position: relative;
+  display: block;
+  background-color: #FFF;
+  padding: 30px;
+  z-index: 2;
+}
+
+form.form-inner h2 {
+  color: #888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+form .form-inner .form-group {
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.form-inner .form-group label {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+}
+
+.form-inner .form-group:focus-within label {
+  color: #FE4880;
+}
+
+form .form-inner .form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+form .form-inner input[type="submit"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880 50%);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+form .form-inner input[type="submit"]:hover {
+  background-position: 100% 0%;
+}
+ */
+
+.hero__item {
+  height: auto;
+  width: 60%;
+  display: block;
+  margin-left: 60vh;
+  align-items: center;
+  padding-left: 75px;
+}
+
+h1.text1 {
+  color: white;
+  margin-left: 56vh;
+  margin-top: 3vh;
+}
+
+.text2 p {
+  font-family: "Cairo", sans-serif;
+  color: black;
+  font-size: 17px;
+  display: block;
+  margin-left: 56vh;
+  margin-bottom: 35vh;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px
+@media screen and (max-width: 550px) {
+
+  h1.text1 {
+    font-size: 17px;
+    margin-left: 17vh;
+    margin-bottom: 15vh;
+  }
+
+  .text2 p {
+    font-family: "Cairo", sans-serif;
+    color: red;
+    font-size: 13px;
+    display: block;
+    margin-left: 17vh;
+    margin-bottom: 65vh;
+  }
+} */
+
+.hero__text {
+  color: black;
+  font-weight: bold;
 }
 
 img {
@@ -15,4 +162,81 @@ img {
 
 img:hover {
   transform: scale(1.15);
+}
+
+img.organicLogo {
+  position: absolute;
+  float: left;
+  margin-left: 50vh;
+  margin-top: 40px;
+}
+
+.header__menu ul li {
+  display: contents;
+}
+
+.header__menu {
+  display: block;
+  padding: 16px;
+  padding: 20px 0 0 0;
+}
+
+ul {
+  display: inline-flex;
+  gap: 60px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 100px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.header__menu ul li.active a {
+  color: #7fad39;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header__menu ul li a {
+  font-size: 14px;
+  color: #252525;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  padding: 5px 0;
+  display: block;
+  text-decoration: none;
+}
+
+.header__menu ul li a:hover {
+  color: #7fad39;
+}
+
+.col-lg-6 {
+  padding-top: 20px;
+  margin-left: 11rem;
+}
+
+.price {
+  position: absolute;
+  font-weight: bolder;
+  margin-left: 80vh;
+}
+
+.icons {
+  display: flex;
+  margin-left: 40px;
+  gap: inherit;
+}
+
+.container1 {
+  position: absolute;
+  display: grid;
+  width: 30% !important;
+  margin-left: 80px !important;
 }
