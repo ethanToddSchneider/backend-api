@@ -108,60 +108,60 @@ form .form-inner input[type="submit"]:hover {
 }
  */
 
-.hero__item {
-  height: auto;
-  width: 60%;
-  display: block;
-  margin-left: 60vh;
-  align-items: center;
-  padding-left: 75px;
-}
 
-h1.text1 {
-  color: white;
-  margin-left: 56vh;
-  margin-top: 3vh;
-}
-
-.text2 p {
+.leftText {
+  position: absolute;
+  display: inline-block;
   font-family: "Cairo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  top: 4px;
+  left: 3rem;
+}
+
+.middleText {
+  position: absolute;
+  display: inline-block;
+  font-family: "Cairo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  top: 4px;
+  left: 29vh;
+}
+
+.socialPlatform {
+  position: absolute;
+  display: inline-block;
+  top: 0.1vw;
+  left: 134vh;
+}
+
+.emailIcon {
   color: black;
-  font-size: 17px;
-  display: block;
-  margin-left: 56vh;
-  margin-bottom: 35vh;
+  margin-right: 9px;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px
-@media screen and (max-width: 550px) {
-
-  h1.text1 {
-    font-size: 17px;
-    margin-left: 17vh;
-    margin-bottom: 15vh;
-  }
-
-  .text2 p {
-    font-family: "Cairo", sans-serif;
-    color: red;
-    font-size: 13px;
-    display: block;
-    margin-left: 17vh;
-    margin-bottom: 65vh;
-  }
-} */
-
-.hero__text {
-  color: black;
-  font-weight: bold;
+.line2 {
+  position: absolute;
+  display: inline-block;
+  top: 0.1vw;
+  left: 74.7vw
 }
 
-img {
-  transition: all 0.3s ease;
+.profileIcon {
+  position: absolute;
+  display: inline-block;
+  top: 0.1vw;
+  left: 76vw;
 }
 
-img:hover {
-  transform: scale(1.15);
+.loginText {
+  position: absolute;
+  font-family: "Cairo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  top: 3px;
+  left: 25px;
 }
 
 img.organicLogo {
@@ -169,6 +169,147 @@ img.organicLogo {
   float: left;
   margin-left: 50vh;
   margin-top: 40px;
+}
+
+img.homepageImg {
+  margin: 0.1rem;
+  margin-top: 5vh;
+  margin-left: 34.5rem;
+  width: 65%;
+}
+
+.fig1 {
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  bottom: 20rem;
+  left: 35rem;
+  margin: 13rem 14rem;
+  font-size: 40px;
+  font-weight: 900 !important;
+}
+
+.fig2 {
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  top: 25rem;
+  left: 23rem;
+  margin: 8rem 26rem;
+  font-size: 35px;
+  font-weight: 900 !important;
+  font-style: italic;
+}
+
+.Icon {
+  color: black;
+}
+
+.search1 {
+  background-color: #7fad39 !important;
+  color: white !important;
+  font-family: "Cairo", sans-serif;
+  border-color: #7fad39 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.phoneIcon {
+  color: #7fad39;
+  position: absolute;
+  text-align: center;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50%;
+  line-height: 36px;
+  background-color: rgba(211, 211, 211, 0.562);
+  margin-left: 65vh;
+  margin-top: 2.7vw;
+}
+
+.phoneNumber h5 {
+  color: black;
+  padding: 2px;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  display: block;
+  position: absolute;
+  top: 10vw;
+  margin-left: 35vw;
+}
+
+.supportText p {
+  color: gray;
+  padding: 2px;
+  font-family: "Cairo", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  display: block;
+  position: absolute;
+  margin-left: 36.1vw;
+  margin-top: 3.8vw;
+}
+
+.phone {
+  display: grid;
+  margin-left: 8.5vw;
+}
+
+.dropdownMenu {
+  display: flex;
+  position: absolute;
+  left: 29rem;
+  top: 12rem;
+}
+
+.containerProduct {
+  margin-right: 21vh;
+}
+
+.btn-primary {
+  width: 150%;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px !important;
+  background-color: #7fad39 !important;
+  border-color: #7fad39 !important;
+  font-weight: bold !important;
+  border-radius: 2px !important;
+  text-decoration: none;
+  box-shadow: none !important;
+}
+
+.dropdown-menu.show {
+  margin: -0.3vh 0;
+  width: 150%;
+  padding: 5px 0;
+  line-height: 51.5px;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.dropdown-item {
+
+  font-family: "Cairo", sans-serif;
+  font-size: 15px;
+  margin-bottom: -10px;
+  font-weight: 500 !important;
+}
+
+@media screen and (max-width: 576px) {
+  figcaption {
+    position: inherit;
+    bottom: inherit;
+    margin: .45rem 0;
+    font-size: inherit;
+    color: inherit;
+  }
+}
+
+img.productimg {
+  transition: all 0.3s ease;
+}
+
+img.productimg:hover {
+  transform: scale(1.15);
 }
 
 .header__menu ul li {
@@ -225,18 +366,56 @@ ul {
 .price {
   position: absolute;
   font-weight: bolder;
-  margin-left: 80vh;
+  margin-left: 75.5vh;
+  top: 7.7vh;
 }
 
 .icons {
   display: flex;
-  margin-left: 40px;
+  margin-left: 20vh;
   gap: inherit;
 }
 
 .container1 {
   position: absolute;
-  display: grid;
-  width: 30% !important;
-  margin-left: 80px !important;
+  left: 38.2vw;
+  top: 10vw;
+  width: 33% !important;
+}
+
+hr.line1 {
+  display: block;
+  width: 10%;
+  margin: 0 45%;
+  background-color: green;
+  border: 3px;
+  opacity: 1;
+  height: 6px !important;
+}
+
+h3.latestProduct {
+  font-weight: bolder;
+}
+
+hr.headerFile {
+  width: 100%;
+  height: 30px !important;
+  margin-top: 0;
+  margin-bottom: -20px;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.form-control-borderless {
+  border: none;
+
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+
+  border: none;
+  outline: none;
+  box-shadow: none;
 }

@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 
 export default class NavbarBS extends Component {
     render() {
+
 
         return (
             <div className='header'>
@@ -27,25 +29,37 @@ export default class NavbarBS extends Component {
                                         </li>
 
                                         <div className='icons'>
-                                            <FavoriteIcon />
-                                            <ShoppingBasketIcon />
+                                            <a href="#action1"><FavoriteIcon className="Icon" /></a>
+                                            <a href="#action2"><ShoppingBasketIcon className="Icon" /></a>
                                         </div>
 
                                         <div className='price'>
-                                            <p>Total: $150.00</p>
+                                            <p>items: $150.00</p>
                                         </div>
                                     </ul><br /><br />
                                     <div class="container-fluid container1">
-                                        <form class="d-flex search" role="search">
-                                            <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search" />
-                                            <button class="btn btn-outline-success search" type="submit">Search</button>
+                                        <form class="d-flex search search2" role="search">
+                                            <input class="form-control me-2 search" type="search1" placeholder="What do you need?" aria-label="Search" />
+                                            <button class="btn btn-outline-success search1" type="submit">SEARCH</button>
                                         </form>
+                                    </div>
+                                    <div className='phone'>
+                                        <div className='phoneIcon'>
+                                            <LocalPhoneIcon fontSize='small' />
+
+                                        </div>
+                                        <div className='row phoneNumber'>
+                                            <h5>+65 11.188.888 </h5>
+                                        </div>
+                                        <div className='row supportText'>
+                                            <p>support 24/7 time</p>
+                                        </div>
                                     </div>
                                 </nav>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div >
 
             </div >
         )
