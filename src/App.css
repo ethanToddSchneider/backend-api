@@ -5,6 +5,14 @@
   font-family: montserrat, sans-serif;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 /* LOGIN PAGE */
 
 input,
@@ -133,7 +141,7 @@ form .form-inner input[type="submit"]:hover {
   position: absolute;
   display: inline-block;
   top: 0.1vw;
-  left: 134vh;
+  left: 143vh;
 }
 
 .emailIcon {
@@ -145,14 +153,14 @@ form .form-inner input[type="submit"]:hover {
   position: absolute;
   display: inline-block;
   top: 0.1vw;
-  left: 74.7vw
+  left: 78vw
 }
 
 .profileIcon {
   position: absolute;
   display: inline-block;
   top: 0.1vw;
-  left: 76vw;
+  left: 80.5vw;
 }
 
 .loginText {
@@ -167,7 +175,7 @@ form .form-inner input[type="submit"]:hover {
 img.organicLogo {
   position: absolute;
   float: left;
-  margin-left: 50vh;
+  margin-left: 47.5vh;
   margin-top: 40px;
 }
 
@@ -330,24 +338,19 @@ ul {
   margin-inline-start: 100px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+  margin-left: 7.5vh;
 }
 
 .header__menu ul li.active a {
   color: #7fad39;
   text-decoration: none;
-  margin-left: 20px;
 }
 
 .header__menu ul li a {
   font-size: 14px;
   color: #252525;
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  -webkit-transition: all, 0.3s;
-  -moz-transition: all, 0.3s;
-  -ms-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
   transition: all, 0.3s;
   padding: 5px 0;
   display: block;
@@ -366,7 +369,7 @@ ul {
 .price {
   position: absolute;
   font-weight: bolder;
-  margin-left: 75.5vh;
+  margin-left: 78.5vh;
   top: 7.7vh;
 }
 

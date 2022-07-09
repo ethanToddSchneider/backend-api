@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import { Container, Dropdown, DropdownButton } from "react-bootstrap";
 
+
 const Products = () => {
 
     const [data, setData] = useState([]);
@@ -58,10 +59,6 @@ const Products = () => {
 
         return (
             <>
-
-
-
-
                 <div className='buttons d-flex justify-content-center mb-5 pb-5'>
                     <button className='btn btn-outline-dark me-2' onClick={() => setFilter(data)}>All</button>
                     <button className='btn btn-outline-dark me-2' onClick={() => filterProduct("men's clothing")}>Men's Clothing</button>

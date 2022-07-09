@@ -9,6 +9,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 export default function Header() {
     return (
         <div >
+
+            {/* LEFT */}
+
             <hr className='headerFile' />
 
             <div className='leftText'>
@@ -19,6 +22,9 @@ export default function Header() {
             <div className='middleText'>
                 Free Shipping for all order over $99
             </div>
+
+
+            {/* RIGHT */}
 
             <div className='row1 socialPlatform'>
                 <FacebookIcon fontSize='small' />&nbsp;&nbsp;&nbsp;

@@ -16,7 +16,7 @@ export default class NavbarBS extends Component {
                     <div className='row'>
                         <div className="col-lg-6">
                             <div className='col-lg-6'>
-                                <nav className='header__menu justify-content-center'>
+                                <nav className='header__menu'>
                                     <ul>
                                         <li className='active'>
                                             <a href="#action1">HOME</a>
