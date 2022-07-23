@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 var product = new mongoose.Schema({
-    productID: {type: String}, //using uuid as mongoose object id is annoying to use
     name: {
         type: String
     },

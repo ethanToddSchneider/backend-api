@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 var discount = new mongoose.Schema({
-    discountID: {type: String}, //using uuid as mongoose object id is annoying to use
 
     discountDesc: {
         type: String

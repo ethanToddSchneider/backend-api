@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 var merchant = new mongoose.Schema({
-    merchantID: {type: String}, //using uuid as mongoose object id is annoying to use
 
     merchantName: {
         type: String

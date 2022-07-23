@@ -27,6 +27,7 @@
     "react-loading-skeleton": "^3.1.0",
     "react-material-ui-carousel": "^2.3.11",
     "react-scripts": "5.0.1",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

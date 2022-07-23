@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 var orderItem = new mongoose.Schema({
-    orderID: {type: String}, //using uuid as mongoose object id is annoying to use
     userID: {
         type: String,
         ref: "userSchema"
